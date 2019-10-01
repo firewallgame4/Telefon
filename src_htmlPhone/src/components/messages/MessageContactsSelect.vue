@@ -23,7 +23,7 @@ export default {
       let addContact = {
         display: this.IntlString('APP_MESSAGE_CONTRACT_ENTER_NUMBER'),
         letter: '+',
-        backgroundColor: 'orange',
+        backgroundColor: 'darkgrey',
         num: -1
       }
       return [addContact, ...this.contacts]

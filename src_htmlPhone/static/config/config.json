@@ -39,12 +39,12 @@
   "fileUploadService_Field": "files[]",
 
   "background": {
-    "Calvin & Hobbes": "back001.jpg",
-    "Destiny": "back002.jpg",
-    "Stormtrooper": "back003.jpg",
 	"Varg": "wolf__gif__by_furrirama-d9ek9s4.gif",
 	"Snus": "snus.jpg",
 	"Volvo": "Volvo.jpg",
+  "Trippy": "trippy.jpg",
+  "Neon Mask": "NeonMask.jpg",
+  "Border": "border.jpg",
     "LÄNK": "URL"
   },
   "background_default": {

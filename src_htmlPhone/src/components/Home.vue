@@ -183,16 +183,16 @@ button{
 button .puce{
   position: absolute;
   display: block;
-  background-color: #1450b8;
+  background-color: #ff3a30;
   font-size: 14px;
-  width: 28px;
-  height: 28px;
-  line-height: 28px;
+  width: 21px;
+  height: 21px;
+  line-height: 18px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid white;
-  bottom: 32px;
-  right: 12px;
+  border: 0.008px solid black;
+  bottom: 88px;
+  right: 4px;
 }
 button.select, button:hover{
   background-color: rgba(255,255,255, 0.7);

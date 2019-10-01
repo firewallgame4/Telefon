@@ -17,12 +17,12 @@ files {
 	'html/static/img/coque/transparent.png',
 	
 	-- Background
-	'html/static/img/background/back001.jpg',
-	'html/static/img/background/back002.jpg',
-	'html/static/img/background/back003.jpg',
 	'html/static/img/background/wolf__gif__by_furrirama-d9ek9s4.gif',
 	'html/static/img/background/snus.jpg',
 	'html/static/img/background/volvo.jpg',
+	'html/static/img/background/trippy.jpg',
+	'html/static/img/background/NeonMask.jpg',
+	'html/static/img/background/border.jpg',
 	
 	'html/static/img/icons_app/call.png',
 	'html/static/img/icons_app/contacts.png',

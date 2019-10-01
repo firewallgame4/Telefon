@@ -39,12 +39,12 @@
   "fileUploadService_Field": "files[]",
 
   "background": {
-    "Calvin & Hobbes": "back001.jpg",
-    "Destiny": "back002.jpg",
-    "Stormtrooper": "back003.jpg",
 	"Varg": "wolf__gif__by_furrirama-d9ek9s4.gif",
 	"Snus": "snus.jpg",
 	"Volvo": "Volvo.jpg",
+  "Trippy": "trippy.jpg",
+  "Neon Mask": "NeonMask.jpg",
+  "Border": "border.jpg",
     "LÄNK": "URL"
   },
   "background_default": {
@@ -347,7 +347,7 @@
       "APP_TWITTER_NAME": "Twitter",
       "APP_TWITTER_VIEW_TWITTER": "Twitter",
       "APP_TWITTER_VIEW_TOP_TWEETS": "Top Tweets",
-      "APP_TWITTER_VIEW_TWEETER": "Twitter",
+      "APP_TWITTER_VIEW_TWEETER": "Twittler",
       "APP_TWITTER_VIEW_SETTING": "Inställningar",
       "APP_TWITTER_NEW_ACCOUNT_USERNAME": "Användarnamn (>= 4)",
       "APP_TWITTER_NEW_ACCOUNT_PASSWORD": "Lösenord (>= 6)",

@@ -307,7 +307,7 @@ export default {
     colorSmsOwner () {
       return [
         {
-          backgroundColor: this.color,
+          backgroundColor: 'rgba: 255,255,255,0',
           color: getBestFontColor(this.color)
         }, {}
       ]
@@ -347,7 +347,7 @@ export default {
     left: 0;
     right: 0;
     height: calc(100% - 20px);
-    background-color: #DDD;    
+    background-color: white;    
 }
 #sms_contact{
     background-color: #4CAF50;
@@ -391,24 +391,26 @@ export default {
   max-height: 95vh;
 }
 
-.sms_me{
-  float: right;
-  background-color: white;
-  padding: 5px 10px;
-  max-width: 90%;
-  margin-right: 5%;
-  margin-top: 10px;
-}
+  .sms_me {
+    float: right;
+    background-image: linear-gradient(to bottom, #34c759 0%, #34c759 100%);
+    padding: 5px 10px;
+    max-width: 90%;
+    margin-right: 5%;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
 
-.sms_other{
-    background-color: #4CAF50;
-    color:white;
+  .sms_other {
+    background-image: linear-gradient(to bottom, #e5e5ea 0%, #e5e5ea 100%);
     float: left;
     padding: 5px 10px;
     max-width: 90%;
     margin-left: 5%;
     margin-top: 10px;
-}
+  }
 
 
 .sms_time{
@@ -417,10 +419,10 @@ export default {
 }
 
 .sms_me .sms_time{
-    color: #AAA;
+    color: white;
 }
 .sms_other .sms_time{
-    color: #555;
+    color: white;
 }
 .messages{
   position: relative;
@@ -431,7 +433,7 @@ export default {
 }
 .sms.select .sms_message, .sms:hover .sms_message{
   background-color: rgb(0, 0, 0) !important;
-  color: #d4d4d4 !important;
+  color: #e5e5ea !important;
 }
 
 .sms.select .sms_message .sms_time, .sms:hover .sms_message .sms_time{
@@ -448,8 +450,9 @@ export default {
     height: 56px;
     margin: 10px;
     width: 380px;
-    background-color: white;
+    background-color: #e5e5ea;
     border-radius: 56px;
+    border: 1px solid #d1d1d6;
 }
 #sms_write input{
     height: 56px;
